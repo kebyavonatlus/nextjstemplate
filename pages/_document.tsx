@@ -10,7 +10,10 @@ class MyDocument extends Document {
     render(): JSX.Element {
         return (
             <Html lang="ru">
-                <Head />
+                <Head>
+                    <link rel="preconnect" href="https://gonts.gstatic.com" />
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" />
+                </Head>
                 <body>
                     <Main />
                     <NextScript />
